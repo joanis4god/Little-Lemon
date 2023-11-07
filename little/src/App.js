@@ -2,9 +2,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
      Homepage
-    </div>
+    <head></head>
+    <body>
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
+      <Footer></Footer>
+    </body>
+    </>
   );
 }
 
